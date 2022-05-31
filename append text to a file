@@ -1,0 +1,5 @@
+#append text to a file and display the text.
+f=open("text.txt",'a+')
+f.write("aman")
+
+
