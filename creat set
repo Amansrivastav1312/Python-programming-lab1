@@ -1,0 +1,4 @@
+print("Create a new set:")
+x = set()
+print(x)
+print(type(x))
