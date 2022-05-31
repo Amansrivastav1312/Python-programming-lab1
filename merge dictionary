@@ -1,0 +1,5 @@
+dict = {"USA":"Washington D.C.", "France":"Paris", "India":"New Delhi"}
+dict1 = {"US":"Washington D.C.", "Franc":"Paris", "Indi":"New Delhi"}
+dict1.update(dict)
+print(dict)
+print(dict1)
