@@ -1,0 +1,3 @@
+SP = int(input('Enter the Selling Price of the product:'))
+CP = 100*SP/(100+15)
+print("the cost price of the product is INR", CP)
