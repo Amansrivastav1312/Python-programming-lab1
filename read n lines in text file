@@ -1,0 +1,7 @@
+#creat a text file name test.txt
+f=open("test.txt",'r')
+n=int(input("enter the number of line want to read-"))
+
+
+for i in range(n):
+    print(f.readline(),end='')
