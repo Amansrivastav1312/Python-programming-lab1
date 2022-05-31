@@ -1,0 +1,7 @@
+color = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+with open('text.txt', "w") as myfile:
+        for c in color:
+                myfile.write(c)
+
+content = open('text.txt')
+print(content.read())
