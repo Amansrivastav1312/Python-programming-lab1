@@ -1,0 +1,4 @@
+key=list(map(str,input("enter value for key:").split()))
+value=list(map(str,input("enter the values for key:").split()))
+data=dict(zip(key,value))
+print(data)
